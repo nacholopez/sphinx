@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 )
 
 type headerLimitKey struct {

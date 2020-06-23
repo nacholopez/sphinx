@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/Clever/leakybucket"
-	"github.com/Clever/sphinx/common"
-	"github.com/Clever/sphinx/limit"
-	"github.com/Clever/sphinx/ratelimiter"
+	"github.com/nacholopez/sphinx/common"
+	"github.com/nacholopez/sphinx/limit"
+	"github.com/nacholopez/sphinx/ratelimiter"
 	"github.com/stretchr/testify/mock"
 )
 

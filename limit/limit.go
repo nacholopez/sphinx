@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/Clever/leakybucket"
-	"github.com/Clever/sphinx/common"
-	"github.com/Clever/sphinx/config"
-	"github.com/Clever/sphinx/limitkeys"
-	"github.com/Clever/sphinx/matchers"
+	"github.com/nacholopez/sphinx/common"
+	"github.com/nacholopez/sphinx/config"
+	"github.com/nacholopez/sphinx/limitkeys"
+	"github.com/nacholopez/sphinx/matchers"
 )
 
 // Limit has methods for matching and adding to a limit

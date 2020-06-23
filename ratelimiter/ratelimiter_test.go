@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/Clever/leakybucket"
-	"github.com/Clever/sphinx/common"
-	"github.com/Clever/sphinx/config"
-	"github.com/Clever/sphinx/limit"
+	"github.com/nacholopez/sphinx/common"
+	"github.com/nacholopez/sphinx/config"
+	"github.com/nacholopez/sphinx/limit"
 )
 
 func returnLastAddStatus(rateLimiter RateLimiter, request common.Request, numAdds int) ([]Status, error) {

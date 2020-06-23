@@ -3,7 +3,7 @@ package limitkeys
 import (
 	"testing"
 
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 )
 
 func getRequest(headers map[string][]string) common.Request {

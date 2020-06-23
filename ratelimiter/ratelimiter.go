@@ -9,9 +9,9 @@ import (
 	leakybucketDynamoDB "github.com/Clever/leakybucket/dynamodb"
 	leakybucketMemory "github.com/Clever/leakybucket/memory"
 	leakybucketRedis "github.com/Clever/leakybucket/redis"
-	"github.com/Clever/sphinx/common"
-	"github.com/Clever/sphinx/config"
-	"github.com/Clever/sphinx/limit"
+	"github.com/nacholopez/sphinx/common"
+	"github.com/nacholopez/sphinx/config"
+	"github.com/nacholopez/sphinx/limit"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/Clever/leakybucket"
-	"github.com/Clever/sphinx/common"
-	"github.com/Clever/sphinx/ratelimiter"
+	"github.com/nacholopez/sphinx/common"
+	"github.com/nacholopez/sphinx/ratelimiter"
 	"github.com/pborman/uuid"
 )
 

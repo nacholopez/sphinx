@@ -3,7 +3,7 @@ package matchers
 import (
 	"regexp"
 
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 )
 
 type pathMatcherConfig struct {

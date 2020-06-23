@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Clever/sphinx/config"
-	"github.com/Clever/sphinx/daemon"
+	"github.com/nacholopez/sphinx/config"
+	"github.com/nacholopez/sphinx/daemon"
 
 	"gopkg.in/Clever/kayvee-go.v6/logger"
 )

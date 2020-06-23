@@ -10,9 +10,9 @@ import (
 
 	"github.com/Clever/leakybucket"
 	"github.com/Clever/leakybucket/memory"
-	"github.com/Clever/sphinx/common"
-	"github.com/Clever/sphinx/config"
-	"github.com/Clever/sphinx/matchers"
+	"github.com/nacholopez/sphinx/common"
+	"github.com/nacholopez/sphinx/config"
+	"github.com/nacholopez/sphinx/matchers"
 )
 
 type Storage struct{}

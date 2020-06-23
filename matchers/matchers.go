@@ -3,7 +3,7 @@ package matchers
 import (
 	"fmt"
 
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 )
 
 var (

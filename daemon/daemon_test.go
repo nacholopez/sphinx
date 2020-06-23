@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Clever/sphinx/config"
+	"github.com/nacholopez/sphinx/config"
 )
 
 func TestConfigReload(t *testing.T) {

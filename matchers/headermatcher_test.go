@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 	"gopkg.in/yaml.v1"
 )
 

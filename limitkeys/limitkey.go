@@ -3,7 +3,7 @@ package limitkeys
 import (
 	"fmt"
 
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 )
 
 // A LimitKey returns a string key based on the request for creating bucketnames.

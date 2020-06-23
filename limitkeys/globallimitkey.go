@@ -1,7 +1,7 @@
 package limitkeys
 
 import (
-	"github.com/Clever/sphinx/common"
+	"github.com/nacholopez/sphinx/common"
 )
 
 const globalLimitKeyValue = "global:sigelton-key"

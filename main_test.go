@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Clever/sphinx/config"
-	"github.com/Clever/sphinx/daemon"
-	"github.com/Clever/sphinx/handlers"
-	"github.com/Clever/sphinx/ratelimiter"
+	"github.com/nacholopez/sphinx/config"
+	"github.com/nacholopez/sphinx/daemon"
+	"github.com/nacholopez/sphinx/handlers"
+	"github.com/nacholopez/sphinx/ratelimiter"
 )
 
 var host = "http://localhost:8081"
