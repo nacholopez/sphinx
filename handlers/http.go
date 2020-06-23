@@ -112,6 +112,7 @@ func getRateLimitHeaders(statuses []ratelimiter.Status) map[string][]string {
 }
 
 func addRateLimitHeaders(w http.ResponseWriter, statuses []ratelimiter.Status) {
+	return
 	for header, values := range getRateLimitHeaders(statuses) {
 		for _, value := range values {
 			w.Header().Add(header, value)
