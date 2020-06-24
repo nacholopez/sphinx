@@ -87,6 +87,7 @@ func (d *daemon) LoadConfig(newConfig config.Config) error {
 		IdleConnTimeout:       90 * time.Second,
 		TLSHandshakeTimeout:   10 * time.Second,
 		ExpectContinueTimeout: 1 * time.Second,
+		DisableKeepAlives:     true,
 	}
 
 	rateLimiter, err := ratelimiter.New(newConfig)
