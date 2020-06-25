@@ -49,7 +49,15 @@ func (d *daemon) Start() {
 	if d.healthCheck.Enabled {
 		setUpHealthCheckService(d.healthCheck.Port, d.healthCheck.Endpoint)
 	}
-	if err := graceful.RunWithErr(d.proxy.Listen, 30*time.Second, d); err != nil {
+	srv := &graceful.Server{
+		Timeout: 30 * time.Second,
+		Server: &http.Server{
+			Addr:    d.proxy.Listen,
+			Handler: d,
+		},
+	}
+	srv.Server.SetKeepAlivesEnabled(false)
+	if err := srv.ListenAndServe(); err != nil {
 		log.Fatal(err)
 	}
 	return
